@@ -32,6 +32,17 @@ package marwin;
 			
 			//verify "Register: Mercury Tours
 			
+			String actualTitle = driver.getTitle();
+			System.out.println("EXP: " + expectedTitle);
+			System.out.println("ACT: " + actualTitle);
+			
+			if(actualTitle.equals(expectedTitle)) {
+			System.out.println("Title Verification PASSED");	
+			
+			} else { System.out.println("Title Verification FAILED");
+			
+			}
+			
 			//first name
 			driver.findElement(By.name("firstName")).sendKeys("Marvin");
 			
