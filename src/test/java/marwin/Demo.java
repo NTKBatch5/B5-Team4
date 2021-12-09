@@ -15,6 +15,8 @@ package marwin;
 
 			String url = "http://demo.guru99.com/test/newtours/";
 			
+			String expectedTitle = "Register: Mercury Tours";
+			
 			//set system property
 			System.setProperty("webdriver.chrome.driver", "/Users/nyumbani/Desktop/Selenium/chromedriver");
 
